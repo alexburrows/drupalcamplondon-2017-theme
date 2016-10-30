@@ -45,7 +45,7 @@ pre {
   .call-to-action-buttons a {
     width: 100%;
     text-align: center;
-    line-height: 400%; }
+    line-height: 200%; }
   .call-to-action-buttons.asset__1 {
     background-color: rgba(0, 0, 0, 0.8);
     border-bottom: 5px #232323 solid; }
@@ -63,11 +63,16 @@ pre {
  * Button styles for entire site.
  */
 a.btn, input[type='submit'].btn {
-  border: 0; }
+  border: 0;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px; }
   a.btn.btn-primary, input[type='submit'].btn.btn-primary {
     background-color: rgba(227, 76, 79, 0.8);
     color: #fff;
-    border-bottom: 5px #E34C4F solid; }
+    border-bottom: 5px #E34C4F solid;
+    font-size: 28px;
+    font-weight: bold; }
     a.btn.btn-primary:hover, input[type='submit'].btn.btn-primary:hover {
       -webkit-perspective: 800px;
       -moz-perspective: 800px;
@@ -92,16 +97,18 @@ nav.navbar-fixed-top {
 #hero {
   background: url("../images/front/hero.png") 0 0 no-repeat transparent;
   background-size: cover;
-  height: 300px;
+  height: 400px;
   position: relative; }
-  #hero #event-date {
-    background-color: #fff;
-    float: left;
-    display: block;
-    padding: 20px;
-    position: absolute;
-    top: 80px;
-    left: 40%;
-    text-align: center; }
-    #hero #event-date h2 {
-      color: #E34C4F; }
+  #hero div {
+    padding-top: 30px; }
+    #hero div #event-date {
+      background-color: #fff;
+      padding: 20px;
+      text-align: center; }
+      #hero div #event-date h1 {
+        font-size: 48px;
+        color: #253976;
+        font-weight: bold; }
+      #hero div #event-date h2 {
+        color: #E34C4F;
+        font-weight: bold; }

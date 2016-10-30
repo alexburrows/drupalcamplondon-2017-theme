@@ -1,19 +1,23 @@
 #hero {
   background:url('../images/front/hero.png') 0 0 no-repeat transparent;
   background-size: cover;
-  height:300px;
+  height:400px;
   position: relative;
-  #event-date {
-    background-color: #fff;
-    float:left;
-    display: block;
-    padding:20px;
-    position: absolute;
-    top: 80px;
-    left:40%;
-    text-align: center;
-    h2 {
-      color: $asset_colour1;
+  div {
+    padding-top:30px;
+    #event-date {
+      background-color: #fff;
+      padding:20px;
+      text-align: center;
+      h1 {
+        font-size: 48px;
+        color: $asset_colour3;
+        font-weight:bold;
+      }
+      h2 {
+        color: $asset_colour1;
+        font-weight: bold;
+      }
     }
   }
 }

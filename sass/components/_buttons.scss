@@ -6,10 +6,15 @@
 a, input[type='submit'] {
   &.btn {
     border:0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
     &.btn-primary {
       background-color: rgba($asset_colour1, 0.8);
       color:#fff;
       border-bottom: 5px $asset_colour1 solid;
+      font-size: 28px;
+      font-weight: bold;
       &:hover {
         -webkit-perspective: 800px;
         -moz-perspective: 800px;
