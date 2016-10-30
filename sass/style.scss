@@ -4,22 +4,4 @@
 @import "components/_blocks.scss";
 @import "components/_buttons.scss";
 @import "components/_nav.scss";
-
-#hero {
-  background:url('../images/front/hero.png') 0 0 no-repeat transparent;
-  background-size: cover;
-  height:300px;
-  position: relative;
-  #event-date {
-    background-color: #fff;
-    float:left;
-    display: block;
-    padding:20px;
-    position: absolute;
-    top: 80px;
-    left:40%;
-    h1,h2 { 
-      color:#fff;
-    }
-  }
-}
+@import "components/_hero.scss";
