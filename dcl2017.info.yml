@@ -1,0 +1,15 @@
+name: Drupalcamp London 2017
+type: theme
+description: Bespoke theme for dcl2017
+core: 8.x
+base theme: bootstrap
+# this needs to be replicated in dcl2017.libraries.yml
+libraries:
+  - dcl2017/global-styling
+  - dcl2017/fonts
+# Define regions.
+regions:
+  header: 'Header'
+  main_nav: 'Main navigation'
+  content: 'Main content'
+  footer: 'Footer'

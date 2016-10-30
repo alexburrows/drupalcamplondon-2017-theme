@@ -1,0 +1,21 @@
+/**
+ * @file
+ * Button styles for entire site.
+ */
+
+a, input[type='submit'] {
+  &.btn {
+    border:0;
+    &.btn-primary {
+      background-color: rgba($asset_colour1, 0.8);
+      color:#fff;
+      border-bottom: 5px $asset_colour1 solid;
+      &:hover {
+        -webkit-perspective: 800px;
+        -moz-perspective: 800px;
+        perspective: 800px;
+        display: inline-block;
+      }
+    }
+  }
+}

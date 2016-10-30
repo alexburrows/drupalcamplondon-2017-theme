@@ -1,0 +1,23 @@
+nav  {
+  &.navbar-fixed-top {
+    background-color:transparent;
+    border:0;
+    .inner {
+      a {
+        &.navbar-brand {
+          width: 381px!important;
+          height: 118px!important;
+          background: url(../images/logo.png) no-repeat;
+          background-size: 70%;
+          float: left;
+          overflow: hidden;
+          text-indent: -999px;
+        }
+      }
+      background-color: #fff;
+      height:53px;
+      .container {
+      }
+    }
+  }
+}

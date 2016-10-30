@@ -1,0 +1,106 @@
+* {
+  font-family: "Open Sans"; }
+
+h1 {
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.4px; }
+
+h3 {
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 15.4px; }
+
+p {
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px; }
+
+blockquote {
+  font-size: 21px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 30px; }
+
+pre {
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 18.5714px; }
+
+/**
+ * @file
+ * Various block styling.
+ */
+.call-to-action-buttons {
+  padding: 30px 0; }
+  .call-to-action-buttons a {
+    width: 100%;
+    text-align: center;
+    line-height: 400%; }
+  .call-to-action-buttons.asset__1 {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-bottom: 5px #232323 solid; }
+    .call-to-action-buttons.asset__1 a {
+      color: #fff;
+      background-color: #E34C4F; }
+  .call-to-action-buttons.asset__2 {
+    background-color: #E34C4F; }
+    .call-to-action-buttons.asset__2 a {
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.8); }
+
+/**
+ * @file
+ * Button styles for entire site.
+ */
+a.btn, input[type='submit'].btn {
+  border: 0; }
+  a.btn.btn-primary, input[type='submit'].btn.btn-primary {
+    background-color: rgba(227, 76, 79, 0.8);
+    color: #fff;
+    border-bottom: 5px #E34C4F solid; }
+    a.btn.btn-primary:hover, input[type='submit'].btn.btn-primary:hover {
+      -webkit-perspective: 800px;
+      -moz-perspective: 800px;
+      perspective: 800px;
+      display: inline-block; }
+
+nav.navbar-fixed-top {
+  background-color: transparent;
+  border: 0; }
+  nav.navbar-fixed-top .inner {
+    background-color: #fff;
+    height: 53px; }
+    nav.navbar-fixed-top .inner a.navbar-brand {
+      width: 381px !important;
+      height: 118px !important;
+      background: url(../images/logo.png) no-repeat;
+      background-size: 70%;
+      float: left;
+      overflow: hidden;
+      text-indent: -999px; }
+
+#hero {
+  background: url("../images/front/hero.png") 0 0 no-repeat transparent;
+  background-size: cover;
+  height: 300px;
+  position: relative; }
+  #hero #event-date {
+    background-color: #fff;
+    float: left;
+    display: block;
+    padding: 20px;
+    position: absolute;
+    top: 80px;
+    left: 40%; }
+    #hero #event-date h1, #hero #event-date h2 {
+      color: #fff; }

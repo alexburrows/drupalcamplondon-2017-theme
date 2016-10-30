@@ -1,0 +1,27 @@
+/**
+ * @file
+ * Various block styling.
+ */
+.call-to-action-buttons {
+  padding: 30px 0;
+  a {
+    width:100%;
+    text-align: center;
+    line-height:400%;
+  }
+  &.asset__1 {
+    background-color: $asset_colour2;
+    border-bottom: 5px #232323 solid;
+    a {
+      color: #fff;
+      background-color: $asset_colour1;
+    }
+  }
+  &.asset__2 {
+    background-color: $asset_colour1;
+    a {
+      color: #fff;
+      background-color:$asset_colour2;
+    }
+  }
+}
