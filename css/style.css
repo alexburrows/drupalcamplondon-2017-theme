@@ -52,33 +52,31 @@ pre {
     .call-to-action-buttons.asset__1 a {
       color: #fff;
       background-color: #E34C4F; }
-  .call-to-action-buttons.asset__2 {
-    background-color: #E34C4F; }
-    .call-to-action-buttons.asset__2 a {
-      color: #fff;
-      background-color: rgba(0, 0, 0, 0.8); }
+
+.tickets.asset__2 {
+  background-color: #E34C4F; }
+  .tickets.asset__2 .row {
+    padding: 20px; }
+    .tickets.asset__2 .row .col-md-6 div {
+      background-color: rgba(37, 57, 118, 0.8);
+      border-bottom: 5px solid #253976;
+      padding: 20px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      color: #fff; }
+      .tickets.asset__2 .row .col-md-6 div h2, .tickets.asset__2 .row .col-md-6 div p {
+        color: #fff;
+        font-weight: bold; }
+      .tickets.asset__2 .row .col-md-6 div a {
+        color: #fff;
+        background-color: rgba(37, 57, 118, 0.8); }
 
 /**
  * @file
  * Button styles for entire site.
+ * This contains mixins.
  */
-a.btn, input[type='submit'].btn {
-  border: 0;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px; }
-  a.btn.btn-primary, input[type='submit'].btn.btn-primary {
-    background-color: rgba(227, 76, 79, 0.8);
-    color: #fff;
-    border-bottom: 5px #E34C4F solid;
-    font-size: 28px;
-    font-weight: bold; }
-    a.btn.btn-primary:hover, input[type='submit'].btn.btn-primary:hover {
-      -webkit-perspective: 800px;
-      -moz-perspective: 800px;
-      perspective: 800px;
-      display: inline-block; }
-
 nav.navbar-fixed-top {
   background-color: transparent;
   border: 0; }

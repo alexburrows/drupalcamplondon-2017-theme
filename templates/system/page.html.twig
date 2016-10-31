@@ -60,7 +60,7 @@
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="inner">
         <div class="container">
-            <a class="navbar-brand" href="#">{{  'Drupalcamp London 2017'|t }}</a   >
+            <a class="navbar-brand" href="#">{{ 'Drupalcamp London 2017'|t }}</a   >
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                         <span class="sr-only">Toggle navigation</span>
@@ -76,21 +76,18 @@
     </div>
 </nav>
 
-
-
-<!-- Main jumbotron for a primary marketing message or call to action -->
 <div id="hero">
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-2">
             </div>
             <div class="col-md-6">
                 <div id="event-date">
-                    <h1>March 3-5 2017</h1>
-                    <h2>City University London</h2>
+                    <h1>{{ 'March 3-5 2017'|t }}</h1>
+                    <h2>{{ 'City University London'|t }}</h2>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-2">
             </div>
         </div>
     </div>
@@ -112,51 +109,65 @@
     </div>
 </div>
 
-<div class="container">
-
-</div>
-
-    <!-- call to action -->
-    <!-- main content -->
-    <div id="main-content" class="container">
+<div class="tickets asset__2">
+    <div class="container">
         <div class="row">
-            {# Highlighted #}
-            {% if page.highlighted %}
-                {% block highlighted %}
-                    <div class="highlighted">{{ page.highlighted }}</div>
-                {% endblock %}
-            {% endif %}
-
-            {# Action Links #}
-            {% if action_links %}
-                {% block action_links %}
-                    <ul class="action-links">{{ action_links }}</ul>
-                {% endblock %}
-            {% endif %}
-
-            {# Help #}
-            {% if page.help %}
-                {% block help %}
-                    {{ page.help }}
-                {% endblock %}
-            {% endif %}
-
-            {# Content #}
-            {% block content %}
-                <a id="main-content"></a>
-                {{ page.content }}
-            {% endblock %}
+            <div class="col-md-6">
+                <div>
+                    <h2>CXO day</h2>
+                    <p>&pound;99</p>
+                    <a href="btn btn-secondary">{{ 'Buy now'|t }}</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div>
+                    <h2>Early Bird</h2>
+                    <p>&pound;25</p>
+                    <a href="btn btn-secondary">{{ 'Buy now'|t }}</a>
+                </div>
+            </div>
         </div>
     </div>
+</div>
 
+<div id="main-content" class="container">
+    <div class="row">
+        {# Highlighted #}
+        {% if page.highlighted %}
+            {% block highlighted %}
+                <div class="highlighted">{{ page.highlighted }}</div>
+            {% endblock %}
+        {% endif %}
+
+        {# Action Links #}
+        {% if action_links %}
+            {% block action_links %}
+                <ul class="action-links">{{ action_links }}</ul>
+            {% endblock %}
+        {% endif %}
+
+        {# Help #}
+        {% if page.help %}
+            {% block help %}
+                {{ page.help }}
+            {% endblock %}
+        {% endif %}
+
+        {# Content #}
+        {% block content %}
+            <a id="main-content"></a>
+            {{ page.content }}
+        {% endblock %}
+    </div>
+</div>
 
 <!-- footer -->
 <footer>
     <div class="container">
-        <duv class="row">
+        <div class="row">
             <p>Drupal Camp London is a non-profit event brought to you by a team of volunteers.<br />
                 Drupal is a registered trademark of Dries Buytaert. Website built using CREAM on Drupal. Hosted on platform.sh</p>
 
-        </duv>
+        </div>
     </div>
 </footer>

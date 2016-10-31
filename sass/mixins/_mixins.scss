@@ -1,9 +1,3 @@
-/**
- * @file
- * Button styles for entire site.
- * This contains mixins.
- */
-
 @mixin button($button_bg_color, $button_border_colour, $font_colour) {
   a, input[type='submit'] {
     &.btn {

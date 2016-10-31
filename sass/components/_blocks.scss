@@ -16,12 +16,34 @@
       color: #fff;
       background-color: $asset_colour1;
     }
+    @include button(rgba($asset_colour1, 0.8), $asset_colour1, #fff);
   }
+}
+
+.tickets {
   &.asset__2 {
     background-color: $asset_colour1;
-    a {
-      color: #fff;
-      background-color:$asset_colour2;
+    .row {
+      padding:20px;
+      .col-md-6 {
+        div {
+          background-color: rgba($asset_colour3, 0.8);
+          border-bottom: 5px solid $asset_colour3;
+          padding: 20px;
+          -webkit-border-radius: 10px;
+          -moz-border-radius: 10px;
+          border-radius: 10px;
+          color:#fff;
+          h2, p {
+            color:#fff;
+            font-weight:bold;
+          }
+          a {
+            color: #fff;
+            background-color: rgba($asset_colour3, 0.8);
+          }
+        }
+      }
     }
   }
 }
