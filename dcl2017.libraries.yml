@@ -7,4 +7,4 @@ global-styling:
 fonts:
   css:
     theme:
-      '//fonts.googleapis.com/css?family=Open+Sans': { type: external, minified: true }
+      '//fonts.googleapis.com/css?family=Open+Sans:regular,bold': { type: external, minified: true }

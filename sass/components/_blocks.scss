@@ -16,7 +16,7 @@
       color: #fff;
       background-color: $asset_colour1;
     }
-    @include button(rgba($asset_colour1, 0.8), $asset_colour1, #fff);
+    @include button_primary(rgba($asset_colour1, 0.8), $asset_colour1, #fff);
   }
 }
 
@@ -35,13 +35,15 @@
           border-radius: 10px;
           color:#fff;
           h2, p {
+            font-weight: 800;
+          }
+          p {
+            font-size: 25px;
+          }
+          h2, p {
             color:#fff;
-            font-weight:bold;
           }
-          a {
-            color: #fff;
-            background-color: rgba($asset_colour3, 0.8);
-          }
+          @include button_secondary($asset_colour1, $asset_colour1, #fff);
         }
       }
     }

@@ -1,4 +1,4 @@
-@mixin button($button_bg_color, $button_border_colour, $font_colour) {
+@mixin button_primary($button_bg_color, $button_border_colour, $font_colour) {
   a, input[type='submit'] {
     &.btn {
       border:0;
@@ -16,6 +16,31 @@
           -moz-perspective: 800px;
           perspective: 800px;
           display: inline-block;
+        }
+      }
+    }
+  }
+}
+@mixin button_secondary($button_bg_color, $button_border_colour, $font_colour) {
+  a {
+    &.btn {
+      border: 0;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      &.btn-secondary {
+        background-color: rgba($button_bg_color, 0.8);
+        color: $font_colour;
+        border-bottom: 5px $button_border_colour solid;
+        font-size: 28px;
+        font-weight: bold;
+        width:100%;
+        &:hover {
+          -webkit-perspective: 800px;
+          -moz-perspective: 800px;
+          perspective: 800px;
+          display: inline-block;
+          border-bottom-width: 20px;
         }
       }
     }

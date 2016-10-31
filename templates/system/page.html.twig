@@ -116,14 +116,14 @@
                 <div>
                     <h2>CXO day</h2>
                     <p>&pound;99</p>
-                    <a href="btn btn-secondary">{{ 'Buy now'|t }}</a>
+                    <a class="btn btn-secondary">{{ 'Buy now'|t }}</a>
                 </div>
             </div>
             <div class="col-md-6">
                 <div>
                     <h2>Early Bird</h2>
                     <p>&pound;25</p>
-                    <a href="btn btn-secondary">{{ 'Buy now'|t }}</a>
+                    <a class="btn btn-secondary">{{ 'Buy now'|t }}</a>
                 </div>
             </div>
         </div>
@@ -165,9 +165,7 @@
 <footer>
     <div class="container">
         <div class="row">
-            <p>Drupal Camp London is a non-profit event brought to you by a team of volunteers.<br />
-                Drupal is a registered trademark of Dries Buytaert. Website built using CREAM on Drupal. Hosted on platform.sh</p>
-
+            {{ page.footer }}
         </div>
     </div>
 </footer>

@@ -52,6 +52,22 @@ pre {
     .call-to-action-buttons.asset__1 a {
       color: #fff;
       background-color: #E34C4F; }
+    .call-to-action-buttons.asset__1 a.btn, .call-to-action-buttons.asset__1 input[type='submit'].btn {
+      border: 0;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px; }
+      .call-to-action-buttons.asset__1 a.btn.btn-primary, .call-to-action-buttons.asset__1 input[type='submit'].btn.btn-primary {
+        background-color: rgba(227, 76, 79, 0.8);
+        color: #fff;
+        border-bottom: 5px #E34C4F solid;
+        font-size: 28px;
+        font-weight: bold; }
+        .call-to-action-buttons.asset__1 a.btn.btn-primary:hover, .call-to-action-buttons.asset__1 input[type='submit'].btn.btn-primary:hover {
+          -webkit-perspective: 800px;
+          -moz-perspective: 800px;
+          perspective: 800px;
+          display: inline-block; }
 
 .tickets.asset__2 {
   background-color: #E34C4F; }
@@ -66,22 +82,36 @@ pre {
       border-radius: 10px;
       color: #fff; }
       .tickets.asset__2 .row .col-md-6 div h2, .tickets.asset__2 .row .col-md-6 div p {
-        color: #fff;
-        font-weight: bold; }
-      .tickets.asset__2 .row .col-md-6 div a {
-        color: #fff;
-        background-color: rgba(37, 57, 118, 0.8); }
+        font-weight: 800; }
+      .tickets.asset__2 .row .col-md-6 div p {
+        font-size: 25px; }
+      .tickets.asset__2 .row .col-md-6 div h2, .tickets.asset__2 .row .col-md-6 div p {
+        color: #fff; }
+      .tickets.asset__2 .row .col-md-6 div a.btn {
+        border: 0;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px; }
+        .tickets.asset__2 .row .col-md-6 div a.btn.btn-secondary {
+          background-color: rgba(227, 76, 79, 0.8);
+          color: #fff;
+          border-bottom: 5px #E34C4F solid;
+          font-size: 28px;
+          font-weight: bold;
+          width: 100%; }
+          .tickets.asset__2 .row .col-md-6 div a.btn.btn-secondary:hover {
+            -webkit-perspective: 800px;
+            -moz-perspective: 800px;
+            perspective: 800px;
+            display: inline-block;
+            border-bottom-width: 20px; }
 
-/**
- * @file
- * Button styles for entire site.
- * This contains mixins.
- */
 nav.navbar-fixed-top {
   background-color: transparent;
   border: 0; }
   nav.navbar-fixed-top .inner {
     background-color: #fff;
+    box-shadow: 0px 21px 23px 0px rgba(0, 0, 0, 0.5);
     height: 53px; }
     nav.navbar-fixed-top .inner a.navbar-brand {
       width: 381px !important;
@@ -110,3 +140,12 @@ nav.navbar-fixed-top {
       #hero div #event-date h2 {
         color: #E34C4F;
         font-weight: bold; }
+
+#main-content {
+  padding: 20px 0; }
+
+footer {
+  background-color: #253976;
+  padding: 20px 0; }
+  footer .container .row p {
+    color: #fff; }
