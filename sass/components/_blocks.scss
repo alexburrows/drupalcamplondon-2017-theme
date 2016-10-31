@@ -42,6 +42,7 @@
           }
           h2, p {
             color:#fff;
+            text-align: center;
           }
           @include button_secondary($asset_colour1, $asset_colour1, #fff);
         }

@@ -63,11 +63,6 @@ pre {
         border-bottom: 5px #E34C4F solid;
         font-size: 28px;
         font-weight: bold; }
-        .call-to-action-buttons.asset__1 a.btn.btn-primary:hover, .call-to-action-buttons.asset__1 input[type='submit'].btn.btn-primary:hover {
-          -webkit-perspective: 800px;
-          -moz-perspective: 800px;
-          perspective: 800px;
-          display: inline-block; }
 
 .tickets.asset__2 {
   background-color: #E34C4F; }
@@ -86,7 +81,8 @@ pre {
       .tickets.asset__2 .row .col-md-6 div p {
         font-size: 25px; }
       .tickets.asset__2 .row .col-md-6 div h2, .tickets.asset__2 .row .col-md-6 div p {
-        color: #fff; }
+        color: #fff;
+        text-align: center; }
       .tickets.asset__2 .row .col-md-6 div a.btn {
         border: 0;
         border-radius: 10px;
@@ -99,12 +95,6 @@ pre {
           font-size: 28px;
           font-weight: bold;
           width: 100%; }
-          .tickets.asset__2 .row .col-md-6 div a.btn.btn-secondary:hover {
-            -webkit-perspective: 800px;
-            -moz-perspective: 800px;
-            perspective: 800px;
-            display: inline-block;
-            border-bottom-width: 20px; }
 
 nav.navbar-fixed-top {
   background-color: transparent;
@@ -121,6 +111,19 @@ nav.navbar-fixed-top {
       float: left;
       overflow: hidden;
       text-indent: -999px; }
+    nav.navbar-fixed-top .inner .container nav ul li.active {
+      color: #fff; }
+    nav.navbar-fixed-top .inner .container nav ul li a {
+      color: #253976;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 12px; }
+      nav.navbar-fixed-top .inner .container nav ul li a:is-active {
+        color: #fff !important; }
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background-color: #E34C4F;
+  color: #fff; }
 
 #hero {
   background: url("../images/front/hero.png") 0 0 no-repeat transparent;
@@ -130,6 +133,7 @@ nav.navbar-fixed-top {
   #hero div {
     padding-top: 30px; }
     #hero div #event-date {
+      box-shadow: 0px 21px 23px 0px rgba(0, 0, 0, 0.5);
       background-color: #fff;
       padding: 20px;
       text-align: center; }

@@ -11,12 +11,6 @@
         border-bottom: 5px $button_border_colour solid;
         font-size: 28px;
         font-weight: bold;
-        &:hover {
-          -webkit-perspective: 800px;
-          -moz-perspective: 800px;
-          perspective: 800px;
-          display: inline-block;
-        }
       }
     }
   }
@@ -35,13 +29,6 @@
         font-size: 28px;
         font-weight: bold;
         width:100%;
-        &:hover {
-          -webkit-perspective: 800px;
-          -moz-perspective: 800px;
-          perspective: 800px;
-          display: inline-block;
-          border-bottom-width: 20px;
-        }
       }
     }
   }

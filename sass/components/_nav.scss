@@ -18,7 +18,30 @@ nav  {
       box-shadow: 0px 21px 23px 0px rgba(0,0,0,0.50);
       height:53px;
       .container {
+        nav {
+          ul {
+            li {
+              &.active {
+                color:#fff;
+              }
+              a {
+                color: $asset_colour3;
+                text-transform: uppercase;
+                font-weight:bold;
+                font-size:12px;
+                &:is-active {
+                  color:#fff!important;
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background-color:$asset_colour1;
+  color:#fff;
 }

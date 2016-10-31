@@ -69,9 +69,7 @@
                         <span class="icon-bar"></span>
                     </button>
                 </div>
-                <div id="navbar" class="navbar-collapse collapse">
                     {{ page.main_nav }}
-                </div><!--/.navbar-collapse -->
         </div>
     </div>
 </nav>
@@ -84,7 +82,7 @@
             <div class="col-md-6">
                 <div id="event-date">
                     <h1>{{ 'March 3-5 2017'|t }}</h1>
-                    <h2>{{ 'City University London'|t }}</h2>
+                    <h2>{{ 'City, University of London'|t }}</h2>
                 </div>
             </div>
             <div class="col-md-2">
@@ -165,7 +163,11 @@
 <footer>
     <div class="container">
         <div class="row">
-            {{ page.footer }}
+            {% if page.footer %}
+                {% block footer %}
+                    {{ page.footer }}
+                {%  endblock %}
+            {%  endif %}
         </div>
     </div>
 </footer>
