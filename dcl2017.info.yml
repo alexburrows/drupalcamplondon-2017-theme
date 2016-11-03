@@ -11,6 +11,7 @@ libraries:
 regions:
   main_nav: 'Main navigation'
   call_to_action1: 'Call to action1'
+  call_to_action2: 'Call to action2'
   volunteer: 'Volunteer'
   content: 'Main content'
   footer: 'Footer'
