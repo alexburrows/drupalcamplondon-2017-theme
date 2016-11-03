@@ -9,7 +9,8 @@ libraries:
   - dcl2017/fonts
 # Define regions.
 regions:
-  header: 'Header'
   main_nav: 'Main navigation'
+  call_to_action1: 'Call to action1'
+  volunteer: 'Volunteer'
   content: 'Main content'
   footer: 'Footer'
