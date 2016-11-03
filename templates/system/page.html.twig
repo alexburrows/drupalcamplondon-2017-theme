@@ -156,6 +156,12 @@
     </div>
 </div>
 
+{% if page.call_to_action2 %}
+    {% block call_to_action2 %}
+        {{ page.call_to_action2 }}
+    {% endblock %}
+{% endif %}
+
 <!-- footer -->
 <footer>
     <div class="container">
