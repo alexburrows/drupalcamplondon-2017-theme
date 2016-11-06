@@ -50,3 +50,35 @@
     }
   }
 }
+
+.speakers {
+  background-color: $asset_colour3;
+  h2 {
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+  }
+  .speaker {
+    padding: 20px;
+    border: solid 1px #333;
+    border-radius: 20px;
+    width:40%;
+    background-color: #fff;
+    .image {
+
+    }
+    .bio {
+      h3 {
+        font-size: 28px;
+      }
+      p {
+        opacity:0.8;
+        font-style: italic;
+      }
+      h3, p, a {
+        color: #333;
+      }
+    }
+  }
+}

@@ -96,6 +96,27 @@ pre {
           font-weight: bold;
           width: 100%; }
 
+.speakers {
+  background-color: #253976; }
+  .speakers h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center; }
+  .speakers .speaker {
+    padding: 20px;
+    border: solid 1px #333;
+    border-radius: 20px;
+    width: 40%;
+    background-color: #fff; }
+    .speakers .speaker .bio h3 {
+      font-size: 28px; }
+    .speakers .speaker .bio p {
+      opacity: 0.8;
+      font-style: italic; }
+    .speakers .speaker .bio h3, .speakers .speaker .bio p, .speakers .speaker .bio a {
+      color: #333; }
+
 nav.navbar-fixed-top {
   background-color: transparent;
   border: 0; }
@@ -150,6 +171,15 @@ nav.navbar-fixed-top {
 
 footer {
   background-color: #253976;
-  padding: 20px 0; }
+  padding: 20px 0;
+  border-top: 1px solid #fff; }
+  footer .container .row div p {
+    color: #fff; }
+    footer .container .row div p a {
+      color: #00ffff; }
+  footer .container .row div a {
+    color: #00ffff; }
   footer .container .row p {
     color: #fff; }
+    footer .container .row p a {
+      color: #00ffff; }
